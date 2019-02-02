@@ -1,0 +1,141 @@
+head, body{
+  font-family: 'Cabin', sans-serif;
+	font-weight: bold;
+}
+
+#header{
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: row-reverse;
+}
+
+#nav-bar{
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+
+#img-container{
+  width: 15%;
+}
+
+#header-img{
+  width: 100%;
+}
+
+.nav-link{
+  color: #000000;
+}
+
+.nav-link:link{
+  text-decoration: none;
+}
+
+#submit{
+  margin-top: 5%;
+  width: 60%;
+  background-color: #FF8C00;
+  font-size: 1.2em;
+  border: 0;
+  border-radius: 2%;
+}
+
+
+#features{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 12em;
+  text-align: left;
+}
+
+p{
+  font-size: 18px;
+}
+
+#form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 42.5%;
+  align-items: center;
+}
+
+#materials, #value, #qualityAssurance{
+  padding-top: 3%; 
+}
+
+#email{
+  font-size: 1.1em;
+}
+
+#howItWorks {
+  text-align: center;
+  padding-top: 5%
+}
+
+#pricing{
+  display: flex;
+  flex-direction: row; 
+  text-align: center;
+  justify-content: space-between; 
+  
+  
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 7%;
+  
+}
+
+#bachelorsAndMasters, #phd, #legal{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+  border-style: solid;
+  border-radius: 3%;
+  text-align: center;
+  align-items: center;
+  border-width: thin;
+}
+
+.level{  
+  background-color: #D3D3D3;
+  font-size: 1.4em;
+  width: 100%;
+  
+}
+
+ul{
+  width: 60%;
+  list-style-type: none;
+  margin-right: 10%;
+
+}
+
+li{
+  margin-top: 10%;
+}
+
+.btn{
+  font-size: 1.5em;
+  margin-bottom: 10%;
+  margin-top: 2%;
+  background-color: orange;
+  border: 0;
+  padding: 2% 5%;
+}
+
+
+@media (max-width: 375px) and (max-height: 812px){
+  #video{
+    height: 90%;
+    width: 90%;
+  }
+}
