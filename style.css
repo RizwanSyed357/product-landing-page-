@@ -1,6 +1,11 @@
 head, body{
+  background-color: #eee;
   font-family: 'Cabin', sans-serif;
   margin-bottom: -1%;
+}
+
+p{
+  font-size: 18px;
 }
 
 #header{
@@ -48,12 +53,8 @@ head, body{
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 12em;
+  padding-top: 15%;
   text-align: left;
-}
-
-p{
-  font-size: 18px;
 }
 
 #form{
@@ -84,8 +85,6 @@ p{
   flex-direction: row; 
   text-align: center;
   justify-content: space-between; 
-  
-  
   width: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -163,7 +162,6 @@ footer span {
   padding-bottom: 1%;
   display: flex;
   justify-content: flex-end;
-  font-weight: lighter;
   font-size: 0.9em;
   margin-right: 1%;
 }
