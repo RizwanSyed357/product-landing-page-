@@ -230,43 +230,25 @@ footer span {
   /* Pricing */
   
 #pricing{
-  width: 90%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
   padding-top: 7%;
+  flex-direction: column;
 }
 
 #bachelorsAndMasters, #phd, #legal{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   width: 100%;
-  border-style: solid;
-  border-radius: 3%;
-  text-align: center;
-  align-items: center;
-  border-width: thin;
+  margin-top: 10%;
+
 }
 
-#bachelorsAndMasters .level, #phd .level, #legal .level {  
-  font-size: 0.8em;
-}
 
 #bachelorsAndMasters ul, #phd ul, #legal ul{
   width: 100%;
   list-style-type: none;
-  margin-right: 28%;
-
-}
-#bachelorsAndMasters h2, #phd h2, #legal h2{ 
-  font-size: 0.8em;
-  }
-#bachelorsAndMasters li, #phd li, #legal li{
-  font-size: 0.7em;
-}
-
-#bachelorsAndMasters .btn, #phd .btn, #legal .btn{
-  font-size: 0.8em;
+  margin-right: 18%;
+  margin-top: -15%;
 }
 
 /* footer */
