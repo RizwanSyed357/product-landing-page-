@@ -186,7 +186,8 @@ footer span {
 
  /* header */ 
   #header{
-  width: 95%;
+    position: absolute;
+    width: 95%;
 }
 
   #nav-bar{
@@ -204,19 +205,19 @@ footer span {
 
   #form{
     margin-top: 20%;
-    margin-left: 15%;
+    margin-left: 9%;
   }
  
   #submit{
-    width: 23%;
+    width: 40%;
     background-color: #FF8C00;
-    font-size: 1em;
+    font-size: 1.2em;
   }
   
   /* features */
   
   #features{
-    padding-top: 50%;
+    padding-top: 58%;
     width: 100%;
   }
   
