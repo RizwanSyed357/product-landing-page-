@@ -1,12 +1,18 @@
+/* head and body */
+
 head, body{
   background-color: #eee;
   font-family: 'Cabin', sans-serif;
   margin-bottom: -1%;
 }
 
+/* all <p> elements */ 
+
 p{
   font-size: 18px;
 }
+
+ /* header */ 
 
 #header{
   display: flex;
@@ -39,23 +45,7 @@ p{
   text-decoration: none;
 }
 
-#submit{
-  margin-top: 5%;
-  width: 60%;
-  background-color: #FF8C00;
-  font-size: 1.2em;
-  border: 0;
-  border-radius: 2%;
-}
-
-
-#features{
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 15%;
-  text-align: left;
-}
+/* form*/
 
 #form{
   display: flex;
@@ -66,6 +56,27 @@ p{
   margin-left: 42.5%;
   align-items: center;
 }
+
+#submit{
+  margin-top: 5%;
+  width: 60%;
+  background-color: #FF8C00;
+  font-size: 1.2em;
+  border: 0;
+  border-radius: 2%;
+}
+
+/* features */
+
+#features{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15%;
+  text-align: left;
+}
+
+/* features */
 
 #materials, #value, #qualityAssurance{
   padding-top: 3%; 
@@ -79,6 +90,8 @@ p{
   text-align: center;
   padding-top: 5%
 }
+
+/* pricing */
 
 #pricing{
   display: flex;
@@ -130,6 +143,8 @@ p{
   padding: 2% 5%;
 }
 
+/* footer */
+
 footer{
     padding-left: 20%;
     padding-right: 20%;
@@ -159,27 +174,114 @@ footer li a:link{
 }
 
 footer span {
-  padding-bottom: 1%;
+  padding-bottom: 1.4%;
   display: flex;
   justify-content: flex-end;
   font-size: 0.9em;
   margin-right: 1%;
 }
 
-
+/* Mobile responsive */ 
 @media (max-width: 400px) and (max-height: 900px){
-  head, body {
-    font-weight: lighter;  
+
+ /* header */ 
+  #header{
+  width: 95%;
+}
+
+  #nav-bar{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
   }
 
-  #video{
-    height: 10%;
-    width: 10%;
+  
+  /* form*/ 
+  
+  #form h2, .features-content p, .features-content h2{ 
+   font-size: 1em;
   }
 
+  #form{
+    margin-top: 20%;
+    margin-left: 10%;
+  }
+ 
+  #submit{
+    width: 23%;
+    background-color: #FF8C00;
+    font-size: 1em;
+  }
+  
+  /* features */
+  
   #features{
+    padding-top: 50%;
     width: 100%;
-
   }
+  
+  /* Video */
+  
+  #video{
+    height: 95%;
+    width: 95%;
+  }
+  
+  /* Pricing */
+  
+#pricing{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 7%;
+}
 
+#bachelorsAndMasters, #phd, #legal{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  border-style: solid;
+  border-radius: 3%;
+  text-align: center;
+  align-items: center;
+  border-width: thin;
+}
+
+#bachelorsAndMasters .level, #phd .level, #legal .level {  
+  font-size: 0.8em;
+}
+
+#bachelorsAndMasters ul, #phd ul, #legal ul{
+  width: 100%;
+  list-style-type: none;
+  margin-right: 28%;
+
+}
+#bachelorsAndMasters h2, #phd h2, #legal h2{ 
+  font-size: 0.8em;
+  }
+#bachelorsAndMasters li, #phd li, #legal li{
+  font-size: 0.7em;
+}
+
+#bachelorsAndMasters .btn, #phd .btn, #legal .btn{
+  font-size: 0.8em;
+}
+
+/* footer */
+  
+footer{
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+footer ul{
+  font-size: 0.8em;
+}
+
+footer span {
+  font-size: 0.8em;
+}
+  
 }
